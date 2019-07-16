@@ -1296,7 +1296,7 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
       switch (_context.prev = _context.next) {
         case 0:
           _context.next = 2;
-          return axios__WEBPACK_IMPORTED_MODULE_3___default.a.get('https://api.github.com/users/TheNeoCarvalho/repos');
+          return axios__WEBPACK_IMPORTED_MODULE_3___default.a.get('https://api.github.com/users/TheNeoCarvalho/repos?per_page=100');
 
         case 2:
           response = _context.sent;

@@ -17,7 +17,7 @@ const User = ({ repos }) => (
 
     User.getInitialProps = async () => {
         const response = await axios.get(
-            'https://api.github.com/users/TheNeoCarvalho/repos'
+            'https://api.github.com/users/TheNeoCarvalho/repos?per_page=100'
         );
         return  { repos: response.data };
     }
